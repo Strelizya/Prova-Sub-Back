@@ -1,0 +1,22 @@
+###CADASTRO DO IMC
+POST http://localhost:5236/api/imc/cadastrar
+Content-Type: application/json
+
+{
+    "AlunoID" : 1,
+    "Altura" : 2.10,
+    "Peso" : 100
+}
+
+### LISTAR IMCS
+GET http://localhost:5236/api/imc/listar
+
+### ALTERAR UM IMC
+PUT http://localhost:5236/api/imc/alterar/1
+Content-Type: application/json
+
+{    
+    "AlunoID": 2,
+    "Altura" : 1.90,
+    "Peso" : 100
+}

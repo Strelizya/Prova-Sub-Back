@@ -1,0 +1,8 @@
+###CADASTRO DO ALUNO
+POST http://localhost:5236/api/aluno/cadastrar
+Content-Type: application/json
+
+{
+    "Nome" : "Potatoo",
+    "Data" : "23/19/49"
+}
